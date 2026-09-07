@@ -1,0 +1,5561 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/customers",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Customers"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "reports",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "Reports"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "activity",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "Activity"
+      },
+      {
+        "module": "AISpaceportOps",
+        "path": "/audit-log",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Audit Log"
+      },
+      {
+        "module": "electronics-in-space",
+        "path": "audit",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Audit"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "bookmarks",
+    "title": "Bookmarks",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize bookmarks and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "bookmarks",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "Bookmarks"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/bookmarks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "map",
+    "title": "Map",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize map and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "map",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "Map"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/map",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "compare",
+    "title": "Compare",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize compare and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "compare",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "Compare"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/compare",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "change-detection",
+    "title": "Change detection",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize change detection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "change-detection",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "Change detection"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/change-detection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "timeline",
+    "title": "Timeline",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize timeline and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "timeline",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "Timeline"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/timeline",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vegetation-index",
+    "title": "Vegetation index",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize vegetation index and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "vegetation-index",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "Vegetation index"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/vegetation-index",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "area-calculation",
+    "title": "Area calculation",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize area calculation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "area-calculation",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "Area calculation"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/area-calculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "object-detection",
+    "title": "Object detection",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize object detection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "object-detection",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "Object detection"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/object-detection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "temporal-analysis",
+    "title": "Temporal analysis",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize temporal analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "temporal-analysis",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "Temporal analysis"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/temporal-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "automated-change-detection",
+    "title": "automated change detection",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize automated change detection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "cf-automated-change-detection",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "automated change detection"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/automated-change-detection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ai-asset-inventory",
+    "title": "ai asset inventory",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize ai asset inventory and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "cf-ai-asset-inventory",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "ai asset inventory"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/ai-asset-inventory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "crop-health-monitoring",
+    "title": "crop health monitoring",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize crop health monitoring and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "cf-crop-health-monitoring",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "crop health monitoring"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/crop-health-monitoring",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "urban-planning-intelligence",
+    "title": "urban planning intelligence",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize urban planning intelligence and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "cf-urban-planning-intelligence",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "urban planning intelligence"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/urban-planning-intelligence",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "disaster-damage-assessment",
+    "title": "disaster damage assessment",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize disaster damage assessment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "cf-disaster-damage-assessment",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "disaster damage assessment"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/disaster-damage-assessment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "environmental-monitoring",
+    "title": "environmental monitoring",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize environmental monitoring and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "cf-environmental-monitoring",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "environmental monitoring"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/environmental-monitoring",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "changedetection-beforeafter",
+    "title": "changedetection beforeafter",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize changedetection beforeafter and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-changedetection-beforeafter",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "changedetection beforeafter"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/changedetection-beforeafter",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "objectdetection-buildings-roads-vehicles",
+    "title": "objectdetection buildings roads vehicles",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize objectdetection buildings roads vehicles and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-objectdetection-buildings-roads-vehicles",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "objectdetection buildings roads vehicles"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/objectdetection-buildings-roads-vehicles",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vegetationindex-ndvi-crop-health",
+    "title": "vegetationindex ndvi crop health",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize vegetationindex ndvi crop health and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-vegetationindex-ndvi-crop-health",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "vegetationindex ndvi crop health"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/vegetationindex-ndvi-crop-health",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cloudremoval",
+    "title": "cloudremoval",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize cloudremoval and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-cloudremoval",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "cloudremoval"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/cloudremoval",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "temporalanalysis-multidate-trends",
+    "title": "temporalanalysis multidate trends",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize temporalanalysis multidate trends and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-temporalanalysis-multidate-trends",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "temporalanalysis multidate trends"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/temporalanalysis-multidate-trends",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "areacalculation-measure-features",
+    "title": "areacalculation measure features",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize areacalculation measure features and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-areacalculation-measure-features",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "areacalculation measure features"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/areacalculation-measure-features",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "segmentationclassification-models",
+    "title": "segmentationclassification models",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize segmentationclassification models and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-segmentationclassification-models",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "segmentationclassification models"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/segmentationclassification-models",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "map-integration-leafletmapbox-backend-lay",
+    "title": "map integration leafletmapbox backend lay",
+    "group": "Satellite imagery analyzer",
+    "description": "Prepare map integration leafletmapbox backend lay requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-map-integration-leafletmapbox-backend-lay",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "map integration leafletmapbox backend lay"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/map-integration-leafletmapbox-backend-lay",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "geospatial-export-geotiff-shapefiles",
+    "title": "geospatial export geotiff shapefiles",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize geospatial export geotiff shapefiles and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-geospatial-export-geotiff-shapefiles",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "geospatial export geotiff shapefiles"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/geospatial-export-geotiff-shapefiles",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "layer-managementoverlay-system",
+    "title": "layer managementoverlay system",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize layer managementoverlay system and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-layer-managementoverlay-system",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "layer managementoverlay system"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/layer-managementoverlay-system",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "roi-drawingmeasurement-persistence",
+    "title": "roi drawingmeasurement persistence",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize roi drawingmeasurement persistence and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-roi-drawingmeasurement-persistence",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "roi drawingmeasurement persistence"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/roi-drawingmeasurement-persistence",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "imagery-provider-api-planet-maxar-sentine",
+    "title": "imagery provider api planet maxar sentine",
+    "group": "Satellite imagery analyzer",
+    "description": "Organize imagery provider api planet maxar sentine and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-imagery-provider-api-planet-maxar-sentine",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "imagery provider api planet maxar sentine"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/imagery-provider-api-planet-maxar-sentine",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhook-delivery-for-completed-batch-jobs",
+    "title": "webhook delivery for completed batch jobs",
+    "group": "Satellite imagery analyzer",
+    "description": "Prepare webhook delivery for completed batch jobs requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISatelliteImageryAnalyzer",
+        "path": "gap-no-webhook-delivery-for-completed-batch-jobs",
+        "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+        "kind": "route",
+        "label": "webhook delivery for completed batch jobs"
+      }
+    ],
+    "owner": "AISatelliteImageryAnalyzer",
+    "alternatives": [],
+    "path": "/features/webhook-delivery-for-completed-batch-jobs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "space-objects",
+    "title": "Space Objects",
+    "group": "Space debris tracker",
+    "description": "Organize space objects and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/space-objects",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Space Objects"
+      },
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/space-objects",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Space Object Catalog"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/space-objects",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "satellites",
+    "title": "Satellites",
+    "group": "Space debris tracker",
+    "description": "Organize satellites and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/satellites",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Satellites"
+      },
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/satellites",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Satellite Registry"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/satellites",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "conjunction-events",
+    "title": "Conjunction Events",
+    "group": "Space debris tracker",
+    "description": "Organize conjunction events and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/conjunction-events",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Conjunction Events"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/conjunction-events",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "launch-windows",
+    "title": "Launch Windows",
+    "group": "Space debris tracker",
+    "description": "Organize launch windows and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/launch-windows",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Launch Windows"
+      },
+      {
+        "module": "AISpaceportOps",
+        "path": "/launch-windows",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Launch Windows"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/launch-windows",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "debris-removal",
+    "title": "Debris Removal",
+    "group": "Space debris tracker",
+    "description": "Organize debris removal and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/debris-removal",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Debris Removal"
+      },
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/debris-removal",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Debris Removal Missions"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/debris-removal",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "collision-probability",
+    "title": "Collision Probability",
+    "group": "Space debris tracker",
+    "description": "Organize collision probability and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/collision-probability",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Collision Probability"
+      },
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/collision-probability",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Collision Probability Calculator"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/collision-probability",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "orbital-decay",
+    "title": "Orbital Decay",
+    "group": "Space debris tracker",
+    "description": "Organize orbital decay and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/orbital-decay",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Orbital Decay"
+      },
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/orbital-decay",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Orbital Decay Prediction"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/orbital-decay",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "maneuver-planning",
+    "title": "Maneuver Planning",
+    "group": "Space debris tracker",
+    "description": "Organize maneuver planning and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/maneuver-planning",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Maneuver Planning"
+      },
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/maneuver-planning",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Maneuver Planning Assistant"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/maneuver-planning",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "debris-analysis",
+    "title": "Debris Analysis",
+    "group": "Space debris tracker",
+    "description": "Organize debris analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/debris-analysis",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Debris Analysis"
+      },
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/debris-analysis",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Debris Field Analysis"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/debris-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "launch-optimization",
+    "title": "Launch Optimization",
+    "group": "Space debris tracker",
+    "description": "Organize launch optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/launch-optimization",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Launch Optimization"
+      },
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/launch-optimization",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Launch Window Optimizer"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/launch-optimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "orbital-map",
+    "title": "Orbital Map (SGP4)",
+    "group": "Space debris tracker",
+    "description": "Organize orbital map (sgp4) and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/orbital-map",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Orbital Map (SGP4)"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/orbital-map",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "conjunction-alerts",
+    "title": "Conjunction Alerts",
+    "group": "Space debris tracker",
+    "description": "Organize conjunction alerts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/conjunction-alerts",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Conjunction Alerts"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/conjunction-alerts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "debris-characterize",
+    "title": "Debris Characterize",
+    "group": "Space debris tracker",
+    "description": "Organize debris characterize and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/debris-characterize",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Debris Characterize"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/debris-characterize",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "collision-clustering",
+    "title": "Collision Clustering",
+    "group": "Space debris tracker",
+    "description": "Organize collision clustering and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/collision-clustering",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Collision Clustering"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/collision-clustering",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rendezvous-optimization",
+    "title": "Rendezvous Optimization",
+    "group": "Space debris tracker",
+    "description": "Organize rendezvous optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/rendezvous-optimization",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Rendezvous Optimization"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/rendezvous-optimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "regulatory-compliance",
+    "title": "Regulatory Compliance",
+    "group": "Space debris tracker",
+    "description": "Organize regulatory compliance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/ai/regulatory-compliance",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Regulatory Compliance"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/regulatory-compliance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tle-sync",
+    "title": "TLE Sync",
+    "group": "Space debris tracker",
+    "description": "Organize tle sync and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "/tle-sync",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "TLE Sync"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/tle-sync",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predictive-collision-clustering-by-likely-fragmentation-parent-with",
+    "title": "predictive collision clustering by likely fragmentation parent with",
+    "group": "Space debris tracker",
+    "description": "Organize predictive collision clustering by likely fragmentation parent with and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "cf-predictive-collision-clustering-by-likely-fragmentation-parent-with",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "predictive collision clustering by likely fragmentation parent with"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/predictive-collision-clustering-by-likely-fragmentation-parent-with",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sensor-fusion-combining-optical-radar-observations-via-ml",
+    "title": "sensor fusion combining optical radar observations via ml",
+    "group": "Space debris tracker",
+    "description": "Organize sensor fusion combining optical radar observations via ml and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "cf-sensor-fusion-combining-optical-radar-observations-via-ml",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "sensor fusion combining optical radar observations via ml"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/sensor-fusion-combining-optical-radar-observations-via-ml",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multi-mission-optimizer-recommending-constellation-reconfigurations",
+    "title": "multi mission optimizer recommending constellation reconfigurations",
+    "group": "Space debris tracker",
+    "description": "Organize multi mission optimizer recommending constellation reconfigurations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "cf-multi-mission-optimizer-recommending-constellation-reconfigurations",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "multi mission optimizer recommending constellation reconfigurations"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/multi-mission-optimizer-recommending-constellation-reconfigurations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "active-debris-removal-logistics-with-payload-capacity-cost",
+    "title": "active debris removal logistics with payload capacity cost",
+    "group": "Space debris tracker",
+    "description": "Organize active debris removal logistics with payload capacity cost and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "cf-active-debris-removal-logistics-with-payload-capacity-cost",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "active debris removal logistics with payload capacity cost"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/active-debris-removal-logistics-with-payload-capacity-cost",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "regulatory-compliance-scoring-against-national-international-guidelines",
+    "title": "regulatory compliance scoring against national international guidelines",
+    "group": "Space debris tracker",
+    "description": "Organize regulatory compliance scoring against national international guidelines and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "cf-regulatory-compliance-scoring-against-national-international-guidelines",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "regulatory compliance scoring against national international guidelines"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/regulatory-compliance-scoring-against-national-international-guidelines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "real-time-conjunction-alerting-via-webhooks-and-pager-style-escalation",
+    "title": "real time conjunction alerting via webhooks and pager style escalation",
+    "group": "Space debris tracker",
+    "description": "Prepare real time conjunction alerting via webhooks and pager style escalation requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "cf-real-time-conjunction-alerting-via-webhooks-and-pager-style-escalation",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "real time conjunction alerting via webhooks and pager style escalation"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/real-time-conjunction-alerting-via-webhooks-and-pager-style-escalation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ai-driven-debris-characterization-from-limited-observations-frontend",
+    "title": "ai driven debris characterization from limited observations frontend",
+    "group": "Space debris tracker",
+    "description": "Organize ai driven debris characterization from limited observations frontend and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "gap-no-ai-driven-debris-characterization-from-limited-observations-frontend",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "ai driven debris characterization from limited observations frontend"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/ai-driven-debris-characterization-from-limited-observations-frontend",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multi-target-rendezvous-optimization-endpoint",
+    "title": "multi target rendezvous optimization endpoint",
+    "group": "Space debris tracker",
+    "description": "Organize multi target rendezvous optimization endpoint and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "gap-no-multi-target-rendezvous-optimization-endpoint",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "multi target rendezvous optimization endpoint"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/multi-target-rendezvous-optimization-endpoint",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sensor-fusion-ml-for-observation-confidence",
+    "title": "sensor fusion ml for observation confidence",
+    "group": "Space debris tracker",
+    "description": "Organize sensor fusion ml for observation confidence and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "gap-no-sensor-fusion-ml-for-observation-confidence",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "sensor fusion ml for observation confidence"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/sensor-fusion-ml-for-observation-confidence",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhooks-or-push-notifications-for-real-time-conjunction",
+    "title": "webhooks or push notifications for real time conjunction",
+    "group": "Space debris tracker",
+    "description": "Prepare webhooks or push notifications for real time conjunction requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "gap-no-webhooks-or-push-notifications-for-real-time-conjunction",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "webhooks or push notifications for real time conjunction"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/webhooks-or-push-notifications-for-real-time-conjunction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "integration-with-norad-tle-feeds-or-jspoc",
+    "title": "integration with norad tle feeds or jspoc",
+    "group": "Space debris tracker",
+    "description": "Prepare integration with norad tle feeds or jspoc requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "gap-no-integration-with-norad-tle-feeds-or-jspoc",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "integration with norad tle feeds or jspoc"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/integration-with-norad-tle-feeds-or-jspoc",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "3d-visualization-of-debris-clouds-at-the",
+    "title": "3d visualization of debris clouds at the",
+    "group": "Space debris tracker",
+    "description": "Organize 3d visualization of debris clouds at the and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "gap-no-3d-visualization-of-debris-clouds-at-the",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "3d visualization of debris clouds at the"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/3d-visualization-of-debris-clouds-at-the",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "regulatory-compliance-tracking-backend-outer-space-treaty",
+    "title": "regulatory compliance tracking backend outer space treaty",
+    "group": "Space debris tracker",
+    "description": "Organize regulatory compliance tracking backend outer space treaty and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "gap-no-regulatory-compliance-tracking-backend-outer-space-treaty",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "regulatory compliance tracking backend outer space treaty"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/regulatory-compliance-tracking-backend-outer-space-treaty",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multi-tenant-operator-support",
+    "title": "multi tenant operator support",
+    "group": "Space debris tracker",
+    "description": "Organize multi tenant operator support and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceDebrisTracker",
+        "path": "gap-no-multi-tenant-operator-support",
+        "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+        "kind": "route",
+        "label": "multi tenant operator support"
+      }
+    ],
+    "owner": "AISpaceDebrisTracker",
+    "alternatives": [],
+    "path": "/features/multi-tenant-operator-support",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "missions",
+    "title": "Missions",
+    "group": "Spaceport ops",
+    "description": "Organize missions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/missions",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Missions"
+      },
+      {
+        "module": "electronics-in-space",
+        "path": "missions",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Missions"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/missions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "launch-vehicles",
+    "title": "Launch Vehicles",
+    "group": "Spaceport ops",
+    "description": "Organize launch vehicles and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/launch-vehicles",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Launch Vehicles"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/launch-vehicles",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "range-assignments",
+    "title": "Range Assignments",
+    "group": "Spaceport ops",
+    "description": "Organize range assignments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/range-assignments",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Range Assignments"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/range-assignments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "range-safety-zones",
+    "title": "Range Safety Zones",
+    "group": "Spaceport ops",
+    "description": "Organize range safety zones and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/range-safety-zones",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Range Safety Zones"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/range-safety-zones",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "debris-conjunctions",
+    "title": "Debris Conjunctions",
+    "group": "Spaceport ops",
+    "description": "Organize debris conjunctions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/debris-conjunctions",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Debris Conjunctions"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/debris-conjunctions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "comms-links",
+    "title": "Comms Links",
+    "group": "Spaceport ops",
+    "description": "Organize comms links and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/comms-links",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Comms Links"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/comms-links",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "payloads",
+    "title": "Payloads",
+    "group": "Spaceport ops",
+    "description": "Organize payloads and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/payloads",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Payloads"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/payloads",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fuel-inventory",
+    "title": "Fuel Inventory",
+    "group": "Spaceport ops",
+    "description": "Organize fuel inventory and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/fuel-inventory",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Fuel Inventory"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/fuel-inventory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "weather-briefs",
+    "title": "Weather Briefs",
+    "group": "Spaceport ops",
+    "description": "Organize weather briefs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/weather-briefs",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Weather Briefs"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/weather-briefs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "anomalies",
+    "title": "Anomalies",
+    "group": "Spaceport ops",
+    "description": "Organize anomalies and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/anomalies",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Anomalies"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/anomalies",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "telemetry",
+    "title": "Telemetry",
+    "group": "Spaceport ops",
+    "description": "Organize telemetry and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/telemetry",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Telemetry"
+      },
+      {
+        "module": "industrial-capabilities-in-space",
+        "path": "telemetry",
+        "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Telemetry Anomaly"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/telemetry",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recovery-assets",
+    "title": "Recovery Assets",
+    "group": "Spaceport ops",
+    "description": "Organize recovery assets and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/recovery-assets",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Recovery Assets"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/recovery-assets",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ground-systems",
+    "title": "Ground Systems",
+    "group": "Spaceport ops",
+    "description": "Organize ground systems and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ground-systems",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Ground Systems"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/ground-systems",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "regulatory-approvals",
+    "title": "Regulatory Approvals",
+    "group": "Spaceport ops",
+    "description": "Organize regulatory approvals and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/regulatory-approvals",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Regulatory Approvals"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/regulatory-approvals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "post-flight-reports",
+    "title": "Post-Flight Reports",
+    "group": "Spaceport ops",
+    "description": "Organize post-flight reports and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/post-flight-reports",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Post-Flight Reports"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/post-flight-reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "launch-window-optimize",
+    "title": "AI \u00b7 Launch Window Optimize",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 launch window optimize and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/launch-window-optimize",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Launch Window Optimize"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/launch-window-optimize",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "weather-window-brief",
+    "title": "AI \u00b7 Weather Window Brief",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 weather window brief and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/weather-window-brief",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Weather Window Brief"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/weather-window-brief",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mission-brief",
+    "title": "AI \u00b7 Mission Brief",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 mission brief and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/mission-brief",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Mission Brief"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/mission-brief",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recovery-plan",
+    "title": "AI \u00b7 Recovery Plan",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 recovery plan and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/recovery-plan",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Recovery Plan"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/recovery-plan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fuel-loadout-calc",
+    "title": "AI \u00b7 Fuel Loadout Calc",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 fuel loadout calc and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/fuel-loadout-calc",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Fuel Loadout Calc"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/fuel-loadout-calc",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "payload-trajectory-check",
+    "title": "AI \u00b7 Payload Trajectory Check",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 payload trajectory check and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/payload-trajectory-check",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Payload Trajectory Check"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/payload-trajectory-check",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ground-systems-checklist",
+    "title": "AI \u00b7 Ground Systems Checklist",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 ground systems checklist and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/ground-systems-checklist",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Ground Systems Checklist"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/ground-systems-checklist",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ngs-link-budget",
+    "title": "AI \u00b7 NGS Link Budget",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 ngs link budget and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/ngs-link-budget",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 NGS Link Budget"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/ngs-link-budget",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "range-safety-assess",
+    "title": "AI \u00b7 Range Safety Assess",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 range safety assess and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/range-safety-assess",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Range Safety Assess"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/range-safety-assess",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "conjunction-risk",
+    "title": "AI \u00b7 Conjunction Risk",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 conjunction risk and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/conjunction-risk",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Conjunction Risk"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/conjunction-risk",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "anomaly-triage",
+    "title": "AI \u00b7 Anomaly Triage",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 anomaly triage and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/anomaly-triage",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Anomaly Triage"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/anomaly-triage",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "debris-mitigation-plan",
+    "title": "AI \u00b7 Debris Mitigation Plan",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 debris mitigation plan and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/debris-mitigation-plan",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Debris Mitigation Plan"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/debris-mitigation-plan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "executive-brief",
+    "title": "AI \u00b7 Executive Brief",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 executive brief and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/executive-brief",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Executive Brief"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/executive-brief",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "post-flight-narrative",
+    "title": "AI \u00b7 Post-Flight Narrative",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 post-flight narrative and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/post-flight-narrative",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Post-Flight Narrative"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/post-flight-narrative",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "draft-press-release",
+    "title": "AI \u00b7 Draft Press Release",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 draft press release and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/draft-press-release",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Draft Press Release"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/draft-press-release",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "regulatory-compliance-check",
+    "title": "AI \u00b7 Regulatory Check",
+    "group": "Spaceport ops",
+    "description": "Organize ai \u00b7 regulatory check and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "/ai/regulatory-compliance-check",
+        "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI \u00b7 Regulatory Check"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/regulatory-compliance-check",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "payload-integration-checklist",
+    "title": "Payload integration checklist",
+    "group": "Spaceport ops",
+    "description": "Prepare payload integration checklist requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "ai/payload-integration-checklist",
+        "source": "/Volumes/external/projects/AISpaceportOps",
+        "kind": "route",
+        "label": "Payload integration checklist"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/payload-integration-checklist",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sonic-boom-forecast",
+    "title": "Sonic boom forecast",
+    "group": "Spaceport ops",
+    "description": "Organize sonic boom forecast and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "ai/sonic-boom-forecast",
+        "source": "/Volumes/external/projects/AISpaceportOps",
+        "kind": "route",
+        "label": "Sonic boom forecast"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/sonic-boom-forecast",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tenant-comms",
+    "title": "Tenant comms",
+    "group": "Spaceport ops",
+    "description": "Organize tenant comms and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "tenant-comms",
+        "source": "/Volumes/external/projects/AISpaceportOps",
+        "kind": "route",
+        "label": "Tenant comms"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/tenant-comms",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "customer-portfolio",
+    "title": "Customer portfolio",
+    "group": "Spaceport ops",
+    "description": "Organize customer portfolio and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "customer-portfolio",
+        "source": "/Volumes/external/projects/AISpaceportOps",
+        "kind": "route",
+        "label": "Customer portfolio"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/customer-portfolio",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "marine-clearance",
+    "title": "Marine clearance",
+    "group": "Spaceport ops",
+    "description": "Organize marine clearance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "marine-clearance",
+        "source": "/Volumes/external/projects/AISpaceportOps",
+        "kind": "route",
+        "label": "Marine clearance"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/marine-clearance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhooks",
+    "title": "Webhooks",
+    "group": "Spaceport ops",
+    "description": "Prepare webhooks requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISpaceportOps",
+        "path": "webhooks",
+        "source": "/Volumes/external/projects/AISpaceportOps",
+        "kind": "route",
+        "label": "Webhooks"
+      }
+    ],
+    "owner": "AISpaceportOps",
+    "alternatives": [],
+    "path": "/features/webhooks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "chips",
+    "title": "Chips",
+    "group": "Electronics in space",
+    "description": "Organize chips and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "chips",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Chips"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/chips",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deployments",
+    "title": "Deployments",
+    "group": "Electronics in space",
+    "description": "Organize deployments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "deployments",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Deployments"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/deployments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tests",
+    "title": "Tests",
+    "group": "Electronics in space",
+    "description": "Organize tests and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "tests",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Tests"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/tests",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "manufacturers",
+    "title": "Manufacturers",
+    "group": "Electronics in space",
+    "description": "Organize manufacturers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "manufacturers",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Manufacturers"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/manufacturers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "research",
+    "title": "Research",
+    "group": "Electronics in space",
+    "description": "Organize research and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "research",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Research"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/research",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rad-test-campaigns",
+    "title": "Rad test campaigns",
+    "group": "Electronics in space",
+    "description": "Organize rad test campaigns and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "rad-test-campaigns",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Rad test campaigns"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/rad-test-campaigns",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "orbit-environments",
+    "title": "Orbit environments",
+    "group": "Electronics in space",
+    "description": "Organize orbit environments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "orbit-environments",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Orbit environments"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/orbit-environments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "upscreen-lots",
+    "title": "Upscreen lots",
+    "group": "Electronics in space",
+    "description": "Organize upscreen lots and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "upscreen-lots",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Upscreen lots"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/upscreen-lots",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "subsystem-budgets",
+    "title": "Subsystem budgets",
+    "group": "Electronics in space",
+    "description": "Organize subsystem budgets and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "subsystem-budgets",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Subsystem budgets"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/subsystem-budgets",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rad-hard-foundries",
+    "title": "Rad hard foundries",
+    "group": "Electronics in space",
+    "description": "Organize rad hard foundries and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "rad-hard-foundries",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Rad hard foundries"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/rad-hard-foundries",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "exports",
+    "title": "Exports",
+    "group": "Electronics in space",
+    "description": "Organize exports and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "exports",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Exports"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/exports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quality-lots",
+    "title": "Quality lots",
+    "group": "Electronics in space",
+    "description": "Organize quality lots and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "quality-lots",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "Quality lots"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/quality-lots",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "thermal-envelope-solver",
+    "title": "thermal envelope solver",
+    "group": "Electronics in space",
+    "description": "Organize thermal envelope solver and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "gap-thermal-envelope-solver",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "thermal envelope solver"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/thermal-envelope-solver",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mass-budget-optimizer",
+    "title": "mass budget optimizer",
+    "group": "Electronics in space",
+    "description": "Organize mass budget optimizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "gap-mass-budget-optimizer",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "mass budget optimizer"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/mass-budget-optimizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "single-event-upset",
+    "title": "single event upset",
+    "group": "Electronics in space",
+    "description": "Organize single event upset and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "gap-single-event-upset",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "single event upset"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/single-event-upset",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "derating-advisor",
+    "title": "derating advisor",
+    "group": "Electronics in space",
+    "description": "Organize derating advisor and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "gap-derating-advisor",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "derating advisor"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/derating-advisor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "test-coverage-gap",
+    "title": "test coverage gap",
+    "group": "Electronics in space",
+    "description": "Organize test coverage gap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "gap-test-coverage-gap",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "test coverage gap"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/test-coverage-gap",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "eda-cad-upload",
+    "title": "eda cad upload",
+    "group": "Electronics in space",
+    "description": "Organize eda cad upload and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "gap-eda-cad-upload",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "eda cad upload"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/eda-cad-upload",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tier2-suppliers",
+    "title": "tier2 suppliers",
+    "group": "Electronics in space",
+    "description": "Organize tier2 suppliers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "gap-tier2-suppliers",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "tier2 suppliers"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/tier2-suppliers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "itar-flags",
+    "title": "itar flags",
+    "group": "Electronics in space",
+    "description": "Organize itar flags and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "gap-itar-flags",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "itar flags"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/itar-flags",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "chamber-scheduling",
+    "title": "chamber scheduling",
+    "group": "Electronics in space",
+    "description": "Organize chamber scheduling and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "gap-chamber-scheduling",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "chamber scheduling"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/chamber-scheduling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "orbit-telemetry-ingest",
+    "title": "orbit telemetry ingest",
+    "group": "Electronics in space",
+    "description": "Organize orbit telemetry ingest and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "gap-orbit-telemetry-ingest",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "orbit telemetry ingest"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/orbit-telemetry-ingest",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "chip-digital-twin",
+    "title": "chip digital twin",
+    "group": "Electronics in space",
+    "description": "Organize chip digital twin and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "cf-chip-digital-twin",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "chip digital twin"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/chip-digital-twin",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "itar-collaboration",
+    "title": "itar collaboration",
+    "group": "Electronics in space",
+    "description": "Organize itar collaboration and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "cf-itar-collaboration",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "itar collaboration"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/itar-collaboration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rad-test-plan-gen",
+    "title": "rad test plan gen",
+    "group": "Electronics in space",
+    "description": "Organize rad test plan gen and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "cf-rad-test-plan-gen",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "rad test plan gen"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/rad-test-plan-gen",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mission-derating",
+    "title": "mission derating",
+    "group": "Electronics in space",
+    "description": "Organize mission derating and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "cf-mission-derating",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "mission derating"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/mission-derating",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rad-hard-marketplace",
+    "title": "rad hard marketplace",
+    "group": "Electronics in space",
+    "description": "Organize rad hard marketplace and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "electronics-in-space",
+        "path": "cf-rad-hard-marketplace",
+        "source": "/Volumes/external/projects/electronics-in-space",
+        "kind": "route",
+        "label": "rad hard marketplace"
+      }
+    ],
+    "owner": "electronics-in-space",
+    "alternatives": [],
+    "path": "/features/rad-hard-marketplace",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "extraction",
+    "title": "Extraction Plan",
+    "group": "Industrial capabilities in space",
+    "description": "Organize extraction plan and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "industrial-capabilities-in-space",
+        "path": "extraction",
+        "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Extraction Plan"
+      }
+    ],
+    "owner": "industrial-capabilities-in-space",
+    "alternatives": [],
+    "path": "/features/extraction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipment",
+    "title": "Equipment Prediction",
+    "group": "Industrial capabilities in space",
+    "description": "Organize equipment prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "industrial-capabilities-in-space",
+        "path": "equipment",
+        "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Equipment Prediction"
+      }
+    ],
+    "owner": "industrial-capabilities-in-space",
+    "alternatives": [],
+    "path": "/features/equipment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "valuation",
+    "title": "Resource Valuation",
+    "group": "Industrial capabilities in space",
+    "description": "Organize resource valuation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "industrial-capabilities-in-space",
+        "path": "valuation",
+        "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Resource Valuation"
+      }
+    ],
+    "owner": "industrial-capabilities-in-space",
+    "alternatives": [],
+    "path": "/features/valuation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mission",
+    "title": "Mission Planning",
+    "group": "Industrial capabilities in space",
+    "description": "Organize mission planning and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "industrial-capabilities-in-space",
+        "path": "mission",
+        "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Mission Planning"
+      }
+    ],
+    "owner": "industrial-capabilities-in-space",
+    "alternatives": [],
+    "path": "/features/mission",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mining-yield",
+    "title": "Mining Yield",
+    "group": "Industrial capabilities in space",
+    "description": "Organize mining yield and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "industrial-capabilities-in-space",
+        "path": "mining_yield",
+        "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Mining Yield"
+      }
+    ],
+    "owner": "industrial-capabilities-in-space",
+    "alternatives": [],
+    "path": "/features/mining-yield",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "regolith",
+    "title": "Regolith Classifier",
+    "group": "Industrial capabilities in space",
+    "description": "Organize regolith classifier and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "industrial-capabilities-in-space",
+        "path": "regolith",
+        "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Regolith Classifier"
+      }
+    ],
+    "owner": "industrial-capabilities-in-space",
+    "alternatives": [],
+    "path": "/features/regolith",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "eva",
+    "title": "EVA Risk",
+    "group": "Industrial capabilities in space",
+    "description": "Organize eva risk and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "industrial-capabilities-in-space",
+        "path": "eva",
+        "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "EVA Risk"
+      }
+    ],
+    "owner": "industrial-capabilities-in-space",
+    "alternatives": [],
+    "path": "/features/eva",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "supply",
+    "title": "Supply Prioritizer",
+    "group": "Industrial capabilities in space",
+    "description": "Organize supply prioritizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "industrial-capabilities-in-space",
+        "path": "supply",
+        "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Supply Prioritizer"
+      }
+    ],
+    "owner": "industrial-capabilities-in-space",
+    "alternatives": [],
+    "path": "/features/supply",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "print-jobs",
+    "title": "Print jobs",
+    "group": "Industrial capabilities in space",
+    "description": "Organize print jobs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "industrial-capabilities-in-space",
+        "path": "print_jobs",
+        "source": "/Volumes/external/projects/industrial-capabilities-in-space",
+        "kind": "route",
+        "label": "Print jobs"
+      }
+    ],
+    "owner": "industrial-capabilities-in-space",
+    "alternatives": [],
+    "path": "/features/print-jobs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

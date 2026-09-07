@@ -1,0 +1,25 @@
+{
+  "id": "space-platform",
+  "title": "Space operations & simulation",
+  "buyer": "Space operators and engineering teams",
+  "sourceCount": 5,
+  "sources": [
+    "AISatelliteImageryAnalyzer",
+    "AISpaceDebrisTracker",
+    "AISpaceportOps",
+    "electronics-in-space",
+    "industrial-capabilities-in-space"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46032,
+  "productName": "Space operations Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+    "/Volumes/external/projects/AISpaceDebrisTracker",
+    "/Volumes/external/projects/AISpaceportOps",
+    "/Volumes/external/projects/electronics-in-space",
+    "/Volumes/external/projects/industrial-capabilities-in-space"
+  ]
+}

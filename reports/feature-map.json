@@ -1,0 +1,1276 @@
+{
+  "mapped": [
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "bookmarks",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "bookmarks",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "activity",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "audit",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "map",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "map",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "compare",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "compare",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "reports",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "change-detection",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "change-detection",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "timeline",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "timeline",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "vegetation-index",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "vegetation-index",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "area-calculation",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "area-calculation",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "object-detection",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "object-detection",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "temporal-analysis",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "temporal-analysis",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "cf-automated-change-detection",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "automated-change-detection",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "cf-ai-asset-inventory",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "ai-asset-inventory",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "cf-crop-health-monitoring",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "crop-health-monitoring",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "cf-urban-planning-intelligence",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "urban-planning-intelligence",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "cf-disaster-damage-assessment",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "disaster-damage-assessment",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "cf-environmental-monitoring",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "environmental-monitoring",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-changedetection-beforeafter",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "changedetection-beforeafter",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-objectdetection-buildings-roads-vehicles",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "objectdetection-buildings-roads-vehicles",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-vegetationindex-ndvi-crop-health",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "vegetationindex-ndvi-crop-health",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-cloudremoval",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "cloudremoval",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-temporalanalysis-multidate-trends",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "temporalanalysis-multidate-trends",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-areacalculation-measure-features",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "areacalculation-measure-features",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-segmentationclassification-models",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "segmentationclassification-models",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-map-integration-leafletmapbox-backend-lay",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "map-integration-leafletmapbox-backend-lay",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-geospatial-export-geotiff-shapefiles",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "geospatial-export-geotiff-shapefiles",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-layer-managementoverlay-system",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "layer-managementoverlay-system",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-roi-drawingmeasurement-persistence",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "roi-drawingmeasurement-persistence",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-imagery-provider-api-planet-maxar-sentine",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "imagery-provider-api-planet-maxar-sentine",
+      "kind": "route"
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "sourceKey": "gap-no-webhook-delivery-for-completed-batch-jobs",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "canonical": "webhook-delivery-for-completed-batch-jobs",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/space-objects",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "space-objects",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/satellites",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "satellites",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/conjunction-events",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "conjunction-events",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/launch-windows",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "launch-windows",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/debris-removal",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "debris-removal",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/collision-probability",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "collision-probability",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/orbital-decay",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "orbital-decay",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/maneuver-planning",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "maneuver-planning",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/debris-analysis",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "debris-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/launch-optimization",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "launch-optimization",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/orbital-map",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "orbital-map",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/conjunction-alerts",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "conjunction-alerts",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/debris-characterize",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "debris-characterize",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/collision-clustering",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "collision-clustering",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/rendezvous-optimization",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "rendezvous-optimization",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/regulatory-compliance",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "regulatory-compliance",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/tle-sync",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "canonical": "tle-sync",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/space-objects",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+      "canonical": "space-objects",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/satellites",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+      "canonical": "satellites",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/debris-removal",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+      "canonical": "debris-removal",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/collision-probability",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+      "canonical": "collision-probability",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/orbital-decay",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+      "canonical": "orbital-decay",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/maneuver-planning",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+      "canonical": "maneuver-planning",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/debris-analysis",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+      "canonical": "debris-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "/ai/launch-optimization",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/pages/Dashboard.jsx",
+      "canonical": "launch-optimization",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "cf-predictive-collision-clustering-by-likely-fragmentation-parent-with",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "predictive-collision-clustering-by-likely-fragmentation-parent-with",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "cf-sensor-fusion-combining-optical-radar-observations-via-ml",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "sensor-fusion-combining-optical-radar-observations-via-ml",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "cf-multi-mission-optimizer-recommending-constellation-reconfigurations",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "multi-mission-optimizer-recommending-constellation-reconfigurations",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "cf-active-debris-removal-logistics-with-payload-capacity-cost",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "active-debris-removal-logistics-with-payload-capacity-cost",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "cf-regulatory-compliance-scoring-against-national-international-guidelines",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "regulatory-compliance-scoring-against-national-international-guidelines",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "cf-real-time-conjunction-alerting-via-webhooks-and-pager-style-escalation",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "real-time-conjunction-alerting-via-webhooks-and-pager-style-escalation",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "gap-no-ai-driven-debris-characterization-from-limited-observations-frontend",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "ai-driven-debris-characterization-from-limited-observations-frontend",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "gap-no-multi-target-rendezvous-optimization-endpoint",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "multi-target-rendezvous-optimization-endpoint",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "gap-no-sensor-fusion-ml-for-observation-confidence",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "sensor-fusion-ml-for-observation-confidence",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "gap-no-webhooks-or-push-notifications-for-real-time-conjunction",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "webhooks-or-push-notifications-for-real-time-conjunction",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "gap-no-integration-with-norad-tle-feeds-or-jspoc",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "integration-with-norad-tle-feeds-or-jspoc",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "gap-no-3d-visualization-of-debris-clouds-at-the",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "3d-visualization-of-debris-clouds-at-the",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "gap-no-regulatory-compliance-tracking-backend-outer-space-treaty",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "regulatory-compliance-tracking-backend-outer-space-treaty",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "sourceKey": "gap-no-multi-tenant-operator-support",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "canonical": "multi-tenant-operator-support",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/missions",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "missions",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/launch-vehicles",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "launch-vehicles",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/launch-windows",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "launch-windows",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/range-assignments",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "range-assignments",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/range-safety-zones",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "range-safety-zones",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/debris-conjunctions",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "debris-conjunctions",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/comms-links",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "comms-links",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/payloads",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "payloads",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/customers",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "clients",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/fuel-inventory",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "fuel-inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/weather-briefs",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "weather-briefs",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/anomalies",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "anomalies",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/telemetry",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "telemetry",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/recovery-assets",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "recovery-assets",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ground-systems",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "ground-systems",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/regulatory-approvals",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "regulatory-approvals",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/post-flight-reports",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "post-flight-reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/audit-log",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/launch-window-optimize",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "launch-window-optimize",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/weather-window-brief",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "weather-window-brief",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/mission-brief",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "mission-brief",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/recovery-plan",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "recovery-plan",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/fuel-loadout-calc",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "fuel-loadout-calc",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/payload-trajectory-check",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "payload-trajectory-check",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/ground-systems-checklist",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "ground-systems-checklist",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/ngs-link-budget",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "ngs-link-budget",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/range-safety-assess",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "range-safety-assess",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/conjunction-risk",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "conjunction-risk",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/anomaly-triage",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "anomaly-triage",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/debris-mitigation-plan",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "debris-mitigation-plan",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/executive-brief",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "executive-brief",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/post-flight-narrative",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "post-flight-narrative",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/draft-press-release",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "draft-press-release",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "/ai/regulatory-compliance-check",
+      "source": "/Volumes/external/projects/AISpaceportOps/frontend/src/pages/Dashboard.js",
+      "canonical": "regulatory-compliance-check",
+      "kind": "definition"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "ai/payload-integration-checklist",
+      "source": "/Volumes/external/projects/AISpaceportOps",
+      "canonical": "payload-integration-checklist",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "ai/sonic-boom-forecast",
+      "source": "/Volumes/external/projects/AISpaceportOps",
+      "canonical": "sonic-boom-forecast",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "tenant-comms",
+      "source": "/Volumes/external/projects/AISpaceportOps",
+      "canonical": "tenant-comms",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "customer-portfolio",
+      "source": "/Volumes/external/projects/AISpaceportOps",
+      "canonical": "customer-portfolio",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "marine-clearance",
+      "source": "/Volumes/external/projects/AISpaceportOps",
+      "canonical": "marine-clearance",
+      "kind": "route"
+    },
+    {
+      "project": "AISpaceportOps",
+      "sourceKey": "webhooks",
+      "source": "/Volumes/external/projects/AISpaceportOps",
+      "canonical": "webhooks",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "chips",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "chips",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "missions",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "missions",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "deployments",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "deployments",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "tests",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "tests",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "manufacturers",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "manufacturers",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "research",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "research",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "rad-test-campaigns",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "rad-test-campaigns",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "orbit-environments",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "orbit-environments",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "upscreen-lots",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "upscreen-lots",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "subsystem-budgets",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "subsystem-budgets",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "rad-hard-foundries",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "rad-hard-foundries",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "exports",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "exports",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "audit",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "quality-lots",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "quality-lots",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "gap-thermal-envelope-solver",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "thermal-envelope-solver",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "gap-mass-budget-optimizer",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "mass-budget-optimizer",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "gap-single-event-upset",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "single-event-upset",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "gap-derating-advisor",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "derating-advisor",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "gap-test-coverage-gap",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "test-coverage-gap",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "gap-eda-cad-upload",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "eda-cad-upload",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "gap-tier2-suppliers",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "tier2-suppliers",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "gap-itar-flags",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "itar-flags",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "gap-chamber-scheduling",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "chamber-scheduling",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "gap-orbit-telemetry-ingest",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "orbit-telemetry-ingest",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "cf-chip-digital-twin",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "chip-digital-twin",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "cf-itar-collaboration",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "itar-collaboration",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "cf-rad-test-plan-gen",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "rad-test-plan-gen",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "cf-mission-derating",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "mission-derating",
+      "kind": "route"
+    },
+    {
+      "project": "electronics-in-space",
+      "sourceKey": "cf-rad-hard-marketplace",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "canonical": "rad-hard-marketplace",
+      "kind": "route"
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "sourceKey": "extraction",
+      "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "extraction",
+      "kind": "definition"
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "sourceKey": "equipment",
+      "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "equipment",
+      "kind": "definition"
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "sourceKey": "valuation",
+      "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "valuation",
+      "kind": "definition"
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "sourceKey": "mission",
+      "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "mission",
+      "kind": "definition"
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "sourceKey": "mining_yield",
+      "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "mining-yield",
+      "kind": "definition"
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "sourceKey": "regolith",
+      "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "regolith",
+      "kind": "definition"
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "sourceKey": "eva",
+      "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "eva",
+      "kind": "definition"
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "sourceKey": "telemetry",
+      "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "telemetry",
+      "kind": "definition"
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "sourceKey": "supply",
+      "source": "/Volumes/external/projects/industrial-capabilities-in-space/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "supply",
+      "kind": "definition"
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "sourceKey": "print_jobs",
+      "source": "/Volumes/external/projects/industrial-capabilities-in-space",
+      "canonical": "print-jobs",
+      "kind": "route"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "key": "login",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "key": "register",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "key": "/feature/:category",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "key": "/feature/:category/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "key": "profile",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "key": "settings",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "key": "/shared/:token",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AISatelliteImageryAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISatelliteImageryAnalyzer",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "key": "login",
+      "source": "/Volumes/external/projects/AISpaceDebrisTracker",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISpaceDebrisTracker",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISpaceportOps",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AISpaceportOps",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISpaceportOps",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AISpaceportOps",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISpaceportOps",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISpaceportOps",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AISpaceportOps",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISpaceportOps",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISpaceportOps",
+      "key": "login",
+      "source": "/Volumes/external/projects/AISpaceportOps",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISpaceportOps",
+      "key": "/*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "electronics-in-space",
+      "key": "login",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "electronics-in-space",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "electronics-in-space",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "electronics-in-space",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "electronics-in-space",
+      "key": "ai",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "electronics-in-space",
+      "key": "search",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "electronics-in-space",
+      "key": "sample-data",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "electronics-in-space",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "electronics-in-space",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "electronics-in-space",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/electronics-in-space",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "electronics-in-space",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "key": "login",
+      "source": "/Volumes/external/projects/industrial-capabilities-in-space",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "industrial-capabilities-in-space",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    }
+  ],
+  "migrationWarnings": []
+}

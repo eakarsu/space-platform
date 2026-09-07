@@ -1,0 +1,32 @@
+[
+  {
+    "id": "AISatelliteImageryAnalyzer",
+    "name": "Satellite imagery analyzer",
+    "sourceProject": "AISatelliteImageryAnalyzer",
+    "services": []
+  },
+  {
+    "id": "AISpaceDebrisTracker",
+    "name": "Space debris tracker",
+    "sourceProject": "AISpaceDebrisTracker",
+    "services": []
+  },
+  {
+    "id": "AISpaceportOps",
+    "name": "Spaceport ops",
+    "sourceProject": "AISpaceportOps",
+    "services": []
+  },
+  {
+    "id": "electronics-in-space",
+    "name": "Electronics in space",
+    "sourceProject": "electronics-in-space",
+    "services": []
+  },
+  {
+    "id": "industrial-capabilities-in-space",
+    "name": "Industrial capabilities in space",
+    "sourceProject": "industrial-capabilities-in-space",
+    "services": []
+  }
+]

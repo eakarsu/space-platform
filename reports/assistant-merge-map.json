@@ -1,0 +1,326 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "draft-press-release"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 4 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "draft-press-release",
+        "title": "AI · Draft Press Release",
+        "originalPath": "/features/draft-press-release"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "temporal-analysis",
+      "temporalanalysis-multidate-trends",
+      "debris-analysis",
+      "predictive-collision-clustering-by-likely-fragmentation-parent-with",
+      "multi-mission-optimizer-recommending-constellation-reconfigurations",
+      "launch-window-optimize",
+      "sonic-boom-forecast",
+      "equipment",
+      "regolith"
+    ],
+    "ai": true,
+    "representativeId": "temporal-analysis",
+    "description": "One assistant for 9 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "temporal-analysis",
+        "title": "Temporal analysis",
+        "originalPath": "/features/temporal-analysis"
+      },
+      {
+        "id": "temporalanalysis-multidate-trends",
+        "title": "temporalanalysis multidate trends",
+        "originalPath": "/features/temporalanalysis-multidate-trends"
+      },
+      {
+        "id": "debris-analysis",
+        "title": "Debris Analysis",
+        "originalPath": "/features/debris-analysis"
+      },
+      {
+        "id": "predictive-collision-clustering-by-likely-fragmentation-parent-with",
+        "title": "predictive collision clustering by likely fragmentation parent with",
+        "originalPath": "/features/predictive-collision-clustering-by-likely-fragmentation-parent-with"
+      },
+      {
+        "id": "multi-mission-optimizer-recommending-constellation-reconfigurations",
+        "title": "multi mission optimizer recommending constellation reconfigurations",
+        "originalPath": "/features/multi-mission-optimizer-recommending-constellation-reconfigurations"
+      },
+      {
+        "id": "launch-window-optimize",
+        "title": "AI · Launch Window Optimize",
+        "originalPath": "/features/launch-window-optimize"
+      },
+      {
+        "id": "sonic-boom-forecast",
+        "title": "Sonic boom forecast",
+        "originalPath": "/features/sonic-boom-forecast"
+      },
+      {
+        "id": "equipment",
+        "title": "Equipment Prediction",
+        "originalPath": "/features/equipment"
+      },
+      {
+        "id": "regolith",
+        "title": "Regolith Classifier",
+        "originalPath": "/features/regolith"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "ai-asset-inventory",
+      "disaster-damage-assessment",
+      "orbital-decay",
+      "ai-driven-debris-characterization-from-limited-observations-frontend",
+      "telemetry",
+      "weather-window-brief",
+      "mission-brief",
+      "recovery-plan",
+      "fuel-loadout-calc",
+      "payload-trajectory-check",
+      "ground-systems-checklist",
+      "debris-mitigation-plan",
+      "executive-brief",
+      "post-flight-narrative",
+      "extraction",
+      "valuation",
+      "mission",
+      "mining-yield",
+      "supply"
+    ],
+    "ai": true,
+    "representativeId": "ai-asset-inventory",
+    "description": "One assistant for 19 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "ai-asset-inventory",
+        "title": "ai asset inventory",
+        "originalPath": "/features/ai-asset-inventory"
+      },
+      {
+        "id": "disaster-damage-assessment",
+        "title": "disaster damage assessment",
+        "originalPath": "/features/disaster-damage-assessment"
+      },
+      {
+        "id": "orbital-decay",
+        "title": "Orbital Decay",
+        "originalPath": "/features/orbital-decay"
+      },
+      {
+        "id": "ai-driven-debris-characterization-from-limited-observations-frontend",
+        "title": "ai driven debris characterization from limited observations frontend",
+        "originalPath": "/features/ai-driven-debris-characterization-from-limited-observations-frontend"
+      },
+      {
+        "id": "telemetry",
+        "title": "Telemetry",
+        "originalPath": "/features/telemetry"
+      },
+      {
+        "id": "weather-window-brief",
+        "title": "AI · Weather Window Brief",
+        "originalPath": "/features/weather-window-brief"
+      },
+      {
+        "id": "mission-brief",
+        "title": "AI · Mission Brief",
+        "originalPath": "/features/mission-brief"
+      },
+      {
+        "id": "recovery-plan",
+        "title": "AI · Recovery Plan",
+        "originalPath": "/features/recovery-plan"
+      },
+      {
+        "id": "fuel-loadout-calc",
+        "title": "AI · Fuel Loadout Calc",
+        "originalPath": "/features/fuel-loadout-calc"
+      },
+      {
+        "id": "payload-trajectory-check",
+        "title": "AI · Payload Trajectory Check",
+        "originalPath": "/features/payload-trajectory-check"
+      },
+      {
+        "id": "ground-systems-checklist",
+        "title": "AI · Ground Systems Checklist",
+        "originalPath": "/features/ground-systems-checklist"
+      },
+      {
+        "id": "debris-mitigation-plan",
+        "title": "AI · Debris Mitigation Plan",
+        "originalPath": "/features/debris-mitigation-plan"
+      },
+      {
+        "id": "executive-brief",
+        "title": "AI · Executive Brief",
+        "originalPath": "/features/executive-brief"
+      },
+      {
+        "id": "post-flight-narrative",
+        "title": "AI · Post-Flight Narrative",
+        "originalPath": "/features/post-flight-narrative"
+      },
+      {
+        "id": "extraction",
+        "title": "Extraction Plan",
+        "originalPath": "/features/extraction"
+      },
+      {
+        "id": "valuation",
+        "title": "Resource Valuation",
+        "originalPath": "/features/valuation"
+      },
+      {
+        "id": "mission",
+        "title": "Mission Planning",
+        "originalPath": "/features/mission"
+      },
+      {
+        "id": "mining-yield",
+        "title": "Mining Yield",
+        "originalPath": "/features/mining-yield"
+      },
+      {
+        "id": "supply",
+        "title": "Supply Prioritizer",
+        "originalPath": "/features/supply"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "regulatory-compliance-scoring-against-national-international-guidelines",
+      "range-safety-assess",
+      "conjunction-risk",
+      "anomaly-triage",
+      "regulatory-compliance-check",
+      "eva"
+    ],
+    "ai": true,
+    "representativeId": "regulatory-compliance-scoring-against-national-international-guidelines",
+    "description": "One assistant for 6 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "regulatory-compliance-scoring-against-national-international-guidelines",
+        "title": "regulatory compliance scoring against national international guidelines",
+        "originalPath": "/features/regulatory-compliance-scoring-against-national-international-guidelines"
+      },
+      {
+        "id": "range-safety-assess",
+        "title": "AI · Range Safety Assess",
+        "originalPath": "/features/range-safety-assess"
+      },
+      {
+        "id": "conjunction-risk",
+        "title": "AI · Conjunction Risk",
+        "originalPath": "/features/conjunction-risk"
+      },
+      {
+        "id": "anomaly-triage",
+        "title": "AI · Anomaly Triage",
+        "originalPath": "/features/anomaly-triage"
+      },
+      {
+        "id": "regulatory-compliance-check",
+        "title": "AI · Regulatory Check",
+        "originalPath": "/features/regulatory-compliance-check"
+      },
+      {
+        "id": "eva",
+        "title": "EVA Risk",
+        "originalPath": "/features/eva"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "ngs-link-budget",
+      "mass-budget-optimizer"
+    ],
+    "ai": true,
+    "representativeId": "ngs-link-budget",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "ngs-link-budget",
+        "title": "AI · NGS Link Budget",
+        "originalPath": "/features/ngs-link-budget"
+      },
+      {
+        "id": "mass-budget-optimizer",
+        "title": "mass budget optimizer",
+        "originalPath": "/features/mass-budget-optimizer"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "rad-test-campaigns"
+    ],
+    "ai": true,
+    "representativeId": "rad-test-campaigns",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "rad-test-campaigns",
+        "title": "Rad test campaigns",
+        "originalPath": "/features/rad-test-campaigns"
+      }
+    ]
+  }
+]
