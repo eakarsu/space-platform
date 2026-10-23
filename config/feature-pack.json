@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-satellites",
+      "feature": "satellites",
+      "title": "Satellite fleet insight",
+      "focus": "Summarize Satellites records: totals, status mix, field coverage and recent activity. Use only supplied records; do not invent orbital parameters beyond supplied data."
+    },
+    {
+      "id": "insight-conjunction-events",
+      "feature": "conjunction-events",
+      "title": "Conjunction event insight",
+      "focus": "Summarize Conjunction Events records: totals, status mix, field coverage and recent activity. Use only supplied records; do not invent collision probabilities beyond supplied data."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work."
+    }
+  ]
+}
